@@ -14,9 +14,7 @@
 
 ### How To Install
 
-- Download Lodeh, make link to Lodeh CSS file, and use Lodeh style classname in your HTML class tag.
-  Link example: <link rel="stylesheet" href="your/lodeh.css" type="text/css" />
-  Uses example: <input class="L-input-1-s" type="text">
+- Download Lodeh, make link to Lodeh CSS file, and append Lodeh style classname into your HTML class tag.
 
 - If you want to use SASS to manage CSS, make sure you have SASS installed in your machine first.
 
