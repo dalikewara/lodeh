@@ -6,11 +6,11 @@
 
 - Hover styles
 
-- <input> styles
+- Input styles
 
-- <textarea> styles
+- Textarea styles
 
-- <link> styles
+- Link styles
 
 ### How To Install
 
