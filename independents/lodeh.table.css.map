@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;;AACA,eAAe;EACX,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,QAAQ;EACzB,MAAM,EAAE,4BAA2B;;AACvC,4CAA4C;EACxC,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;;AACvB,qBAAqB;EACjB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;EACpB,UAAU,ECRA,OAAkB;EDS5B,KAAK,ECJO,OAAe;;ADK/B,qBAAqB;EACjB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;EACpB,KAAK,ECRO,OAAe;;ADS/B,kCAAkC;EAC9B,UAAU,EChBC,OAAkB;;ADiBjC,iCAAiC;EAC7B,UAAU,ECpBD,KAAkB",
+"sources": ["../sass/styles/_table.sass","../sass/declarations/_color.sass"],
+"names": [],
+"file": "lodeh.table.css"
+}

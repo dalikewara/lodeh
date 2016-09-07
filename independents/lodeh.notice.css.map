@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;;AACA;;kBAAoB;EAGhB,UAAU,ECoDM,kBAAkB;EDnDlC,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,CAAC;;AACd,mBAAmB;EACf,KAAK,ECRI,KAAkB;;ADS/B,mBAAmB;EACf,KAAK,ECGO,OAAgB;;ADFhC,kBAAkB;EACd,KAAK,ECDG,OAAgB",
+"sources": ["../sass/styles/_notice.sass","../sass/declarations/_color.sass"],
+"names": [],
+"file": "lodeh.notice.css"
+}

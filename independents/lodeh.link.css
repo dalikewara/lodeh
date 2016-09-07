@@ -1,0 +1,23 @@
+/* Lodeh 0.0.2 Z Rev 1 (CSS) */
+/* (c) Dali Kewara <dalikewara@windowslive.com> */
+/* http://opensource.org/licenses/MIT */
+/* ------------------------------ Styles ----------------------------------- */
+/* Link */
+/* Link Style 1 */
+a.L-link-1 {
+  text-decoration: none;
+  opacity: 0.5;
+  transition: all 0.2s; }
+
+a.L-link-1-r {
+  text-decoration: none;
+  opacity: 1;
+  transition: all 0.2s; }
+
+a.L-link-1:hover {
+  opacity: 1; }
+
+a.L-link-1-r:hover {
+  opacity: 0.5; }
+
+/*# sourceMappingURL=lodeh.link.css.map */

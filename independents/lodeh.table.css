@@ -1,0 +1,33 @@
+/* Lodeh 0.0.2 Z Rev 1 (CSS) */
+/* (c) Dali Kewara <dalikewara@windowslive.com> */
+/* http://opensource.org/licenses/MIT */
+/* ------------------------------ Styles ----------------------------------- */
+/* Table */
+/* Table Style 1 */
+table.L-table-1 {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgba(0, 0, 0, 0.2); }
+
+table.L-table-1 tr th, table.L-table-1 tr td {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+table.L-table-1 tr th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: #dbd9d9;
+  color: #2a2b36; }
+
+table.L-table-1 tr td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #2a2b36; }
+
+table.L-table-1 tr:nth-child(even) {
+  background: #f2f2f2; }
+
+table.L-table-1 tr:nth-child(odd) {
+  background: white; }
+
+/*# sourceMappingURL=lodeh.table.css.map */

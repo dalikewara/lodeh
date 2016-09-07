@@ -1,0 +1,23 @@
+/* Lodeh 0.0.2 Z Rev 1 (CSS) */
+/* (c) Dali Kewara <dalikewara@windowslive.com> */
+/* http://opensource.org/licenses/MIT */
+/* ------------------------------ Styles ----------------------------------- */
+/* Notice */
+/* Notice Style 1 */
+.L-notice-1-success,
+.L-notice-1-warning,
+.L-notice-1-danger {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  z-index: 1; }
+
+.L-notice-1-success {
+  color: white; }
+
+.L-notice-1-warning {
+  color: #e3ac09; }
+
+.L-notice-1-danger {
+  color: #ff5959; }
+
+/*# sourceMappingURL=lodeh.notice.css.map */

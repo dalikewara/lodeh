@@ -1,0 +1,36 @@
+/* Lodeh 0.0.2 Z Rev 1 (CSS) */
+/* (c) Dali Kewara <dalikewara@windowslive.com> */
+/* http://opensource.org/licenses/MIT */
+/* ------------------------------ Styles ----------------------------------- */
+/* Hover */
+/* Hover Style 1 */
+.L-hover-1 {
+  opacity: 0.8;
+  transition: all 0.2s; }
+
+.L-hover-1-r {
+  opacity: 1;
+  transition: all 0.2s; }
+
+.L-hover-1:hover {
+  opacity: 1; }
+
+.L-hover-1-r:hover {
+  opacity: 0.8; }
+
+/* Hover Style 2 */
+.L-hover-2 {
+  opacity: 0.3;
+  transition: all 0.2s; }
+
+.L-hover-2-r {
+  opacity: 1;
+  transition: all 0.2s; }
+
+.L-hover-2:hover {
+  opacity: 1; }
+
+.L-hover-2-r:hover {
+  opacity: 0.3; }
+
+/*# sourceMappingURL=lodeh.hover.css.map */

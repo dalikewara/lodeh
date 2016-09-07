@@ -3,11 +3,14 @@
 /* http://opensource.org/licenses/MIT */
 /* ------------------------------ Styles ----------------------------------- */
 /* Hover */
+/* Hover Style 1 */
 .L-hover-1 {
-  opacity: 0.8; }
+  opacity: 0.8;
+  transition: all 0.2s; }
 
 .L-hover-1-r {
-  opacity: 1; }
+  opacity: 1;
+  transition: all 0.2s; }
 
 .L-hover-1:hover {
   opacity: 1; }
@@ -15,11 +18,14 @@
 .L-hover-1-r:hover {
   opacity: 0.8; }
 
+/* Hover Style 2 */
 .L-hover-2 {
-  opacity: 0.3; }
+  opacity: 0.3;
+  transition: all 0.2s; }
 
 .L-hover-2-r {
-  opacity: 1; }
+  opacity: 1;
+  transition: all 0.2s; }
 
 .L-hover-2:hover {
   opacity: 1; }
@@ -28,13 +34,16 @@
   opacity: 0.3; }
 
 /* Link */
+/* Link Style 1 */
 a.L-link-1 {
   text-decoration: none;
-  opacity: 0.5; }
+  opacity: 0.5;
+  transition: all 0.2s; }
 
 a.L-link-1-r {
   text-decoration: none;
-  opacity: 1; }
+  opacity: 1;
+  transition: all 0.2s; }
 
 a.L-link-1:hover {
   opacity: 1; }
@@ -43,6 +52,7 @@ a.L-link-1-r:hover {
   opacity: 0.5; }
 
 /* Input */
+/* Input Style 1 */
 input.L-input-1-s {
   padding: 6px; }
 
@@ -52,16 +62,24 @@ input.L-input-1-m {
 input.L-input-1-l {
   padding: 10px; }
 
-input.L-input-1-s, input.L-input-1-m, input.L-input-1-l {
+input.L-input-1-s,
+input.L-input-1-m,
+input.L-input-1-l {
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   margin: 10px 0;
   display: block;
-  width: 100%; }
+  width: 100%;
+  background: #fafafa;
+  transition: all 0.2s; }
 
-input.L-input-1-s:hover, input.L-input-1-m:hover, input.L-input-1-l:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+input.L-input-1-s:hover,
+input.L-input-1-m:hover,
+input.L-input-1-l:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: white; }
 
+/* Input Style 2 */
 input.L-input-2-s {
   padding: 6px; }
 
@@ -71,12 +89,17 @@ input.L-input-2-m {
 input.L-input-2-l {
   padding: 10px; }
 
-input.L-input-2-s, input.L-input-2-m, input.L-input-2-l {
+input.L-input-2-s,
+input.L-input-2-m,
+input.L-input-2-l {
   border-radius: 5px;
   border: none;
-  width: 100%; }
+  width: 100%;
+  background: transparent;
+  transition: all 0.2s; }
 
 /* Textarea */
+/* Textarea Style 1 */
 .L-textarea-1-s {
   padding: 8px; }
 
@@ -86,40 +109,122 @@ input.L-input-2-s, input.L-input-2-m, input.L-input-2-l {
 .L-textarea-1-l {
   padding: 12px; }
 
-.L-textarea-1-s, .L-ta-style-1-m, .L-ta-style-1-l {
+.L-textarea-1-s,
+.L-textarea-1-m,
+.L-textarea-1-l {
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   margin: 10px 0;
   display: block;
-  width: 100%; }
-
-.L-textarea-1-s:hover, .L-ta-style-1-m:hover, .L-ta-style-1-l:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-
-/* ---------------------------- Properties --------------------------------- */
-/* Transition */
-.L-hover-1, .L-hover-1-r,
-.L-hover-2, .L-hover-2-r,
-a.L-link-1, a.L-link-1-r,
-input.L-input-1-s, input.L-input-1-m, input.L-input-1-l,
-input.L-input-2-s, input.L-input-2-m, input.L-input-2-l,
-.L-textarea-1-s, .L-ta-style-1-m, .L-ta-style-1-l {
+  width: 100%;
+  background: #fafafa;
   transition: all 0.2s; }
 
-/* Color */
-/* Background */
-.L-textarea-1-s:hover, .L-ta-style-1-m:hover, .L-ta-style-1-l:hover,
-input.L-input-1-s:hover, input.L-input-1-m:hover, input.L-input-1-l:hover {
+.L-textarea-1-s:hover,
+.L-textarea-1-m:hover,
+.L-textarea-1-l:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background: white; }
 
-.L-textarea-1-s, .L-ta-style-1-m, .L-ta-style-1-l,
-input.L-input-1-s, input.L-input-1-m, input.L-input-1-l {
-  background: #fafafa; }
+/* Button */
+/* Button Style 1 */
+.L-button-1-s {
+  padding: 8px 14px; }
 
-input.L-input-2-s, input.L-input-2-m, input.L-input-2-l {
-  background: transparent; }
+.L-button-1-m {
+  padding: 10px 18px; }
 
-/* Border */
-/* Shadow */
+.L-button-1-l {
+  padding: 12px 22px; }
+
+.L-button-1-s,
+.L-button-1-m,
+.L-button-1-l {
+  cursor: pointer;
+  background: #fafafa;
+  border: 1px solid #bcbcbc;
+  border-radius: 5px;
+  transition: all 0.2s;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); }
+
+.L-button-1-s:hover,
+.L-button-1-m:hover,
+.L-button-1-l:hover {
+  background: #f2f2f2;
+  border: 1px solid #aaaaaa;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.1); }
+
+/* Button Style 2 */
+.L-button-2-s {
+  padding: 8px 14px; }
+
+.L-button-2-m {
+  padding: 10px 18px; }
+
+.L-button-2-l {
+  padding: 12px 22px; }
+
+.L-button-2-s,
+.L-button-2-m,
+.L-button-2-l {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  transition: all 0.2s;
+  color: #f2f2f2; }
+
+.L-button-2-s:hover,
+.L-button-2-m:hover,
+.L-button-2-l:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(242, 242, 242, 0.8);
+  color: rgba(242, 242, 242, 0.8); }
+
+/* Notice */
+/* Notice Style 1 */
+.L-notice-1-success,
+.L-notice-1-warning,
+.L-notice-1-danger {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  z-index: 1; }
+
+.L-notice-1-success {
+  color: white; }
+
+.L-notice-1-warning {
+  color: #e3ac09; }
+
+.L-notice-1-danger {
+  color: #ff5959; }
+
+/* Table */
+/* Table Style 1 */
+table.L-table-1 {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgba(0, 0, 0, 0.2); }
+
+table.L-table-1 tr th, table.L-table-1 tr td {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+table.L-table-1 tr th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: #dbd9d9;
+  color: #2a2b36; }
+
+table.L-table-1 tr td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #2a2b36; }
+
+table.L-table-1 tr:nth-child(even) {
+  background: #f2f2f2; }
+
+table.L-table-1 tr:nth-child(odd) {
+  background: white; }
 
 /*# sourceMappingURL=lodeh.css.map */

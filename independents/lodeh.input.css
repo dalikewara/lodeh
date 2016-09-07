@@ -1,0 +1,52 @@
+/* Lodeh 0.0.2 Z Rev 1 (CSS) */
+/* (c) Dali Kewara <dalikewara@windowslive.com> */
+/* http://opensource.org/licenses/MIT */
+/* ------------------------------ Styles ----------------------------------- */
+/* Input */
+/* Input Style 1 */
+input.L-input-1-s {
+  padding: 6px; }
+
+input.L-input-1-m {
+  padding: 8px; }
+
+input.L-input-1-l {
+  padding: 10px; }
+
+input.L-input-1-s,
+input.L-input-1-m,
+input.L-input-1-l {
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 10px 0;
+  display: block;
+  width: 100%;
+  background: #fafafa;
+  transition: all 0.2s; }
+
+input.L-input-1-s:hover,
+input.L-input-1-m:hover,
+input.L-input-1-l:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: white; }
+
+/* Input Style 2 */
+input.L-input-2-s {
+  padding: 6px; }
+
+input.L-input-2-m {
+  padding: 8px; }
+
+input.L-input-2-l {
+  padding: 10px; }
+
+input.L-input-2-s,
+input.L-input-2-m,
+input.L-input-2-l {
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  background: transparent;
+  transition: all 0.2s; }
+
+/*# sourceMappingURL=lodeh.input.css.map */
